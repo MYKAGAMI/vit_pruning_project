@@ -1,0 +1,33 @@
+# ---- Python 基本 ----
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+*.egg
+
+# ---- 日志/训练产物 ----
+*.log
+log/
+logs/
+runs/               # TensorBoard
+wandb/
+events.out.tfevents*
+
+# ---- 模型权重/检查点（你不想传的）----
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+weights/
+output/
+outputs/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- OS 杂项 ----
+.DS_Store
+Thumbs.db
