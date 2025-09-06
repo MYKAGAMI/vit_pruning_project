@@ -137,7 +137,7 @@ python speed_eval_vit_paper.py \
   --arch vit_base_patch16_224 \
   --ckpt ./outputs/kd/checkpoint_student_pruned.pth \
   --batch-size 1 --repeat 200
-
+}
 
 ##Citation
 @misc{vit_pruning_project_2025,
@@ -145,5 +145,5 @@ python speed_eval_vit_paper.py \
   author = {MYKAGAMI},
   year   = {2025},
   howpublished = {\url{https://github.com/MYKAGAMI/vit_pruning_project}}
-}
+
 
