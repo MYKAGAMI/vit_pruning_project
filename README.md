@@ -139,7 +139,7 @@ python speed_eval_vit_paper.py \
   --batch-size 1 --repeat 200
 
 
-#Citation
+##Citation
 @misc{vit_pruning_project_2025,
   title  = {ViT Pruning Project},
   author = {MYKAGAMI},
